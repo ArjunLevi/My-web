@@ -1,0 +1,31 @@
+{
+  "name": "my-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/carousel": "^5.10.4",
+    "@mantine/core": "^5.10.4",
+    "@netlify/next": "^1.4.4",
+    "@next/font": "13.1.6",
+    "@splinetool/react-spline": "^2.2.5",
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "framer-motion": "^9.0.4",
+    "next": "13.1.6",
+    "next-themes": "^0.2.1",
+    "postcss": "^8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sharp": "^0.31.3",
+    "tailwind-scrollbar": "^2.1.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
