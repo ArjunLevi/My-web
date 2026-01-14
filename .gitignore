@@ -1,0 +1,31 @@
+# --- Dependencies ---
+node_modules/
+.npm
+.eslintcache
+
+# --- Build Outputs ---
+dist/
+build/
+.next/
+out/
+
+# --- Environment & Secrets (CRITICAL) ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+id_ed25519*
+id_cyper_account*
+
+# --- Blockchain Specific ---
+# Ignore local blockchain data/logs
+*.log
+chain-data/
+ibc-data/
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
